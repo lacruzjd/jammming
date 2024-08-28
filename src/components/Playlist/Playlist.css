@@ -1,0 +1,11 @@
+.playlist {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    flex-basis: 40%;
+    background-color: black;
+}
+
+.save-module {
+    display: flex;
+}

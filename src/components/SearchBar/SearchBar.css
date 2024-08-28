@@ -1,0 +1,43 @@
+.search-bar {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(159, 159, 159);
+    color: black;
+    flex-basis: 100%;
+    display: flex;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(84, 84, 84);
+    text-align: right;
+    flex-grow: 2;
+}
+
+input:focus{
+    border: none;
+    background-color: rgb(110, 110, 110);
+    outline: none;
+}
+
+button {
+    border: NONE;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(141, 141, 141);
+    color: #000000;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(84, 84, 84);
+}
+
+button:active {
+    background-color: rgb(210, 210, 210);
+    color: black;
+}

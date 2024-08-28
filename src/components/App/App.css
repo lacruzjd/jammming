@@ -1,0 +1,47 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #999999;
+}
+
+h1 .highlight {
+  color: #eaeaea;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: .88rem;
+}
+
+body {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  background-color: #000000;
+  color: #a6a6a6;
+}
+
+main {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(77, 77, 77);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
