@@ -1,0 +1,13 @@
+.trak h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.trak h3 {
+    font-size:medium;
+}
+
+.trak h4 {
+    font-size: small;
+    font-weight: 100;
+}

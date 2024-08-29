@@ -1,16 +1,20 @@
 import Track from "../Track/Track"
 import "./SeachResults.css"
 
-export default function SearchResults({results}) {
+export default function SearchResults({ results, addToPlaylist }) {
 
-    const resulsList = results ? results.map(pista => {
+    const resulsList = results ? results.map(track => {
         return (
-            <>
-                <Track track={pista} />
-                <button>+</button>
-            </>
+            <li>
+                <Track track={track} />
+                <button onClick={() => handlerClick(track)}>+</button>
+            </li>
         )
     }) : null
+
+    function handlerClick(track) {
+        addToPlaylist(track)
+    }
 
     return (
         <section className="results">

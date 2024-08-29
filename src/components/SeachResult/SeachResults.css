@@ -3,5 +3,26 @@
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(36, 36, 36);
-    flex-basis: 40%;
+    flex-basis:40%;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background: #4d4d4d;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    float: right;
 }
